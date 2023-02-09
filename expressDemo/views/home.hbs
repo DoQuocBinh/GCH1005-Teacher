@@ -22,16 +22,14 @@
             {{/each}} 
         </ul>
     {{/if}}  
+    {{#if events}}
+        <ul>
+            {{#each events}}
+                <li> {{name}} - {{event}} </li>
+            {{/each}} 
+        </ul>
+    {{/if}} 
     <a href="/student">Go to the student page!</a>
-    <table class="table">
-        <tr>
-            <td>Minh</td>
-            <td>23</td>
-        </tr>
-        <tr>
-            <td>Cuong</td>
-            <td>21</td>
-        </tr>
-    </table>
+   
 </body>
 </html>
