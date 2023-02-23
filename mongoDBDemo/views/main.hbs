@@ -11,10 +11,15 @@
     <ol>
        {{#each products}}
             <li>
-                {{name}} - {{country}}
+                {{name}} - {{price}}
+                <img src="{{picURL}}" alt="" width="120px" height="100px">
+                <a href="/delete/{{_id}}">delete</a>
             </li>   
         {{/each}}
     </ol>
+    <ul>
+        <li><a href="/add">Add Product</a></li>
+    </ul>
     
 </body>
 </html>
