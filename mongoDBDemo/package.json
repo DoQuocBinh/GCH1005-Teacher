@@ -1,16 +1,14 @@
 {
-  "name": "mongodbdemo",
+  "name": "mongoDBDemo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "hbs": "^4.2.0",
-    "mongodb": "^5.0.1"
+    "mongodb": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=19"
   }
 }

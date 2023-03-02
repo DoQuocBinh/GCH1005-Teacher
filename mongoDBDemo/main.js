@@ -4,7 +4,7 @@ var app = express()
 app.set('view engine','hbs')
 app.use(express.urlencoded({extended:true}))
 
-var url = 'mongodb://127.0.0.1:27017';
+var url = 'mongodb+srv://tommy:12345654321@cluster0.lkrga.mongodb.net/test';
 var MongoClient = require('mongodb').MongoClient;
 
 app.post('/edit',async (req,res)=>{
